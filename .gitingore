@@ -1,0 +1,99 @@
+### Configuration files or DOT ENV FILE
+.env
+
+### NodeJS
+npm-debug.log*
+pids
+*.pid
+*.seed
+lib-cov
+coverage
+.grunt
+.lock-wscript
+build/Release
+node_modules
+jspm_packages
+.npm
+.node_repl_history
+
+### Project and Temporary files
+_Store
+.idea/*
+.buildpath
+.project
+.settings/*
+temp
+temp/*
+.ftpquota
+_/.ftpquota
+app/robots.txt
+tcp*
+
+### NodeJS Module- Grunt
+/node_modules/
+# Logs
+*.log
+
+### Grunt intermediate storage (http://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+### node-waf configuration
+.lock-wscript
+
+### Dependency directory
+# https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
+node_modules
+
+### OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Thumbnails
+._*
+
+### Vagrant template
+.vagrant/
+
+### Dreamweaver template
+# DW Dreamweaver added files
+_notes
+_compareTemp
+dwsync.xml
+dw_php_codehinting.config
+*.mno
+
+### Windows template
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msm
+*.msp
+*.lnk
+
+### textmate
+*.tmproj
+*.tmproject
+tmtags
+
+### Notepad++ backups
+*.bak
+
+### JetBrain
+.idea
+.idea/vcs.xml

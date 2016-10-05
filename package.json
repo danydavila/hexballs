@@ -1,0 +1,37 @@
+{
+  "name": "hexballs",
+  "version": "0.0.1",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "NODE_ENV=production node server.js"
+  },
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "body-parser": "~1.15.1",
+    "colors": "^1.1.2",
+    "cookie": "^0.3.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "dotenv": "^2.0.0",
+    "errorhandler": "^1.4.3",
+    "express": "~4.13.4",
+    "express-handlebars": "^3.0.0",
+    "helmet": "^1.3.0",
+    "lodash": "^4.11.1",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.0",
+    "validator": "^5.2.0",
+    "winston": "^2.2.0"
+  },
+  "contributors": [
+    {
+      "name": "Andrew Harris",
+      "email": ""
+    },
+    {
+      "name": "Dany Davila",
+      "email": "danydavila@gmail.com"
+    }
+  ]
+}
