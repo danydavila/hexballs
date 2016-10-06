@@ -33,7 +33,7 @@ RUN ln -snf /usr/share/zoneinfo/Etc/UTC /etc/localtime && echo "Etc/UTC" > /etc/
     mkdir -p /var/www && chown -R www-user:www-users /var/www
 
 # Add our package.json and install *before* adding our application files
-ADD package.json  /var/www
+ADD package.json  /var/www/package.json
 
 # Install dependencies
 RUN cd /var/www && \
@@ -42,7 +42,7 @@ RUN cd /var/www && \
 
 # Bundle app source
 COPY . /var/www
-ADD .env  /var/www
+ADD .env  /var/www/.env
 
 RUN yum -y erase openssh-server >/dev/null 2>&1; \
     yum -y clean all && \
